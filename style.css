@@ -4,7 +4,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #33ABF9;
+    background-color: white;
     font-family: 'Roboto Mono', monospace;
     color: white;
 }
@@ -57,6 +57,7 @@ body {
 #cover_photo {
     width: 100%;
     height: 100vh;
+    background-color: #33ABF9;
 }
 
 #cover_photo_container {
@@ -105,6 +106,10 @@ body {
     align-items: center;
     background-color: white;
     color: black;
+}
+
+h2 {
+    padding: 20px;
 }
 
 /* END SUMMARY SECTION */
@@ -221,10 +226,6 @@ body {
     color: white;
 }
 
-.fa:hover {
-    opacity: 0.7;
-    background: rgb(185, 181, 181)
-}
 
 /* END FOOTER SECTION */
 
@@ -237,13 +238,32 @@ body {
 
 .profile_image {
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
     width: 50%;
-    background-color: #52DBFF;
+    background-color: #33ABF9;
     height: 100vh;
+    padding-right: 20px;
+}
+
+#profile_photo_container {
+    width: 50%;
+    height: 50%;
+    overflow: hidden;
+}
+
+#profile_photo_raw {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
 }
 
 .about_me {
     display: flex;
+    text-align: left;
     width: 50%;
-    background-color: #52DBFF;
+    background-color: #33ABF9;
+    align-items: center;
+    padding-left: 20px;
 }

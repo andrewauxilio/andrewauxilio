@@ -17,6 +17,7 @@
 
     <!-- Social Media Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -113,26 +114,33 @@
                 <h2>✍contact me</h2>
             </div>
             <div class="modal-body">
-                    <form action="/action_page.php">
-                        <label>name</label>
-                        <br>
-                        <input type="text" value="" placeholder="type your name here...">
-                        <br>
-                        <label>email</label>
-                        <br>
-                        <input type="email" name="lastname" value="" placeholder="type you email here...">
-                        <br>
-                        <label>phone</label>
-                        <br>
-                        <input type="text" name="lastname" value="" placeholder="type your phone number here...">
-                        <br>
-                        <label>message</label>
-                        <br>
-                        <input type="textarea" id="message" name="lastname" value="" style="height:100px;">
-                    </form> 
-            </div>
-            <div class="modal-footer">
-                <span class="button">submit</span>
+                <div class="wrapper">
+                    <form method="post" action="" class="ccform">
+                    <div class="ccfield-prepend">
+                        <span class="ccform-addon"><i class="fa fa-user fa-2x"></i></span>
+                        <input class="ccformfield" type="text" placeholder="Full Name" required>
+                    </div>
+                    <div class="ccfield-prepend">
+                        <span class="ccform-addon"><i class="fa fa-envelope fa-2x"></i></span>
+                        <input class="ccformfield" type="text" placeholder="Email" required>
+                    </div>
+                    <div class="ccfield-prepend">
+                        <span class="ccform-addon"><i class="fa fa-mobile-phone fa-2x"></i></span>
+                        <input class="ccformfield" type="text" placeholder="Phone">
+                    </div>
+                     <div class="ccfield-prepend">
+                        <span class="ccform-addon"><i class="fa fa-info fa-2x"></i></span>
+                        <input class="ccformfield" type="text" placeholder="Subject" required>
+                    </div>
+                    <div class="ccfield-prepend">
+                        <span class="ccform-addon"><i class="fa fa-comment fa-2x"></i></span>
+                        <textarea class="ccformfield" name="comments" rows="6" placeholder="Message" required></textarea>
+                    </div>
+                    <div class="ccfield-prepend">
+                        <input class="ccbtn" type="submit" value="Submit">
+                    </div>
+                    </form>
+                </div>
             </div>
         </div>
     </div>

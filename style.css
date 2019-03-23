@@ -214,13 +214,13 @@ h3 > .fa-github {
     background-color: #33ABF9;
     align-items: center;
     bottom: 0;
+    font-size: 15px;
 }
-.floatleft {
-    float: left;
+.copyright {
+    padding-top: 10px;
 }
 .fa {
     padding: 10px;
-    font-size: 20px;
     width: 30px;
     text-align: center;
     text-decoration: none;
@@ -378,17 +378,17 @@ h3 > .fa-github {
      color: #33ABF9; 
      float:left;
      /* padding:6px; */
-     width:10%;
+     width:13%;
      text-align:center;	
-     background: white;
+     background: #33ABF9;
  }
  
  .ccformfield {
      color:#000000; 
      background:#FFFFFF;
      border:none;
-     padding:15.5px;
-     width:90%;
+     padding:15px;
+     width:88%;
      display:block;
      font-family: 'Lato',Arial,sans-serif;
      font-size:14px;
@@ -406,6 +406,7 @@ h3 > .fa-github {
      cursor:pointer;
      text-decoration:none;
      font-weight:bold;
+     margin-top: 20px;
  }
  .ccbtn:hover{
      background:#00b489;
@@ -413,7 +414,7 @@ h3 > .fa-github {
  }
 
  .ccform-addon > .fa {
-     background-color: #FFFFFF;
-     color: #33ABF9;
+     background-color: #33ABF9;
+     color: #FFFFFF;
  }
 

@@ -260,7 +260,21 @@ h3 > .fa-github {
     margin-bottom: 0px;
 }
 .about_me_1 {
-    background-color: black;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+.about_me_2 {
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+#profile_photo_container {
+    height: 80%;
+    width: 80%;
+}
+#profile_photo_raw {
+    height: 100%;
+    width: 100%;
 }
 .About-cell {
     background-color: #33ABF9;

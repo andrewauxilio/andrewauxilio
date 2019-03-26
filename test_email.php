@@ -18,7 +18,7 @@ require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 $mail = new PHPMailer;
 
 $mail->isSMTP();
-$mail->SMTPDebug = 2;
+$mail->SMTPDebug = 4;
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
@@ -27,11 +27,10 @@ $mail->Username = "andrew.auxilio@gmail.com";
 $mail->Password = "Na\$areth";
 
 //Set who the message is to be sent from
-$mail->setFrom('andrew.auxilio@gmail.com', 'Andrew Auxilio');
-//Set an alternative reply-to address
-$mail->addReplyTo('whoto@example.com', 'John Doe');
+$mail->setFrom('mr.andee@hotmail.com', 'Andy Aux');
+
 //Set who the message is to be sent to
-$mail->addAddress('whoto@example.com', 'John Doe');
+$mail->addAddress('mr.andee@hotmail.com', 'Andrew Auxilio');
 
 $mail->isHTML(true);
 $mail->Subject = 'PHPMailer GMail SMTP test';
@@ -47,3 +46,18 @@ if (!$mail->send()) {
 }
 
 ?>
+
+<!-- [curl]
+; A default value for the CURLOPT_CAINFO option. This is required to be an
+; absolute path.
+curl.cainfo="C:\xampp\perl\vendor\lib\Mozilla\CA\cacert.pem"
+
+[openssl]
+; The location of a Certificate Authority (CA) file on the local filesystem
+; to use when verifying the identity of SSL/TLS peers. Most users should
+; not specify a value for this directive as PHP will attempt to use the
+; OS-managed cert stores in its absence. If specified, this value may still
+; be overridden on a per-stream basis via the "cafile" SSL stream context
+; option.
+;openssl.cafile="C:\xampp\apache\bin\curl-ca-bundle.crt"
+openssl.cafile="C:\xampp\perl\vendor\lib\Mozilla\CA\cacert.pem" -->

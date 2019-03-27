@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<!-- link to head module-->
 <?php include("modules/head.php");?>
 
 <body>
+
+    <!-- link to navbar module-->
     <?php include("modules/navbar.php");?>
-    
+
+    <!-- Contains the whole body-->
     <div class="flex-container">
 
         <!-- Cover Photo Container-->
+        <!-- The landing page section of the website-->
         <div id="cover_photo" class="container">
             <div id="cover_photo_container">
                 <!-- <img id="cover_photo_raw" src="images/cover_photo.jpg"> -->
@@ -15,7 +21,9 @@
         </div>
 
         <!-- Summary Container-->
-        <div id="summary" class="container" data-aos="fade-up">
+        <!-- Short summary about me and my social media links -->
+        <!-- Access contact form by clicking the "shoot me an e-mail" link-->
+        <div id="summary" class="container" data-aos="fade-right">
             <h2>
                 Hi, I'm Andrew Auxilio - a Melbourne-based website developer <br> and below are some of the projects I
                 have worked on.😄
@@ -36,30 +44,36 @@
         </div>
 
         <!-- Work Container-->
+        <!-- Showcase the projects that I have done-->
         <div id="work" class="container">
-            <div class="Grid Grid--cols-3 u-textCenter" data-aos="fade-up">
+            <div class="Grid Grid--cols-3 u-textCenter" data-aos="fade-left">
                 <div class="Grid-cell">
                     <div id="work_photo_container">
-                        <div><img id="work_photo_raw" src="images/pawfume.png"></div>
+                        <div><img id="work_photo_raw" src="projects/pawfume/pawfume.png"></div>
                     </div>
                 </div>
                 <div class="Grid-cell">
                     <div id="work_photo_container">
-                        <div><img id="work_photo_raw" src="images/amanda.png"></div>
+                        <div><img id="work_photo_raw" src="projects/amanda-au/amanda.png"></div>
                     </div>
                 </div>
                 <div class="Grid-cell">
                     <div id="work_photo_container">
-                        <div><img id="work_photo_raw" src="images/dowell.png"></div>
+                        <div><img id="work_photo_raw" src="projects/dowell/dowell.png"></div>
                     </div>
                 </div>
             </div>
         </div>
 
-    </div>
+        <!-- link to footer module-->
+        <?php include("modules/footer.php");?>
 
-    <?php include("modules/footer.php");?>
-    <?php include("modules/contact.php");?>
+    </div>
+    
+    <!-- link to contact module-->
+    <?php include("contact.php");?>
+
+    <!-- link to scripts module-->
     <?php include("modules/scripts.php");?>
 
 </body>

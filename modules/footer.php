@@ -1,4 +1,4 @@
-<!-- Footer Container-->
+<!-- footer module-->
 <div id="footer_container">
     <div class="copyright">
         <span>Copyright 2019 Andrew Auxilio | Follow me :</span>

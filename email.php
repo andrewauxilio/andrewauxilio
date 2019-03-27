@@ -18,7 +18,7 @@ require 'vendor/phpmailer/phpmailer/src/SMTP.php';
 $mail = new PHPMailer;
 
 $mail->isSMTP();
-$mail->SMTPDebug = 4;
+$mail->SMTPDebug = 0;
 $mail->Host = 'smtp.gmail.com';
 $mail->Port = 587;
 $mail->SMTPSecure = 'tls';
@@ -39,11 +39,11 @@ $mail->Body = 'This is the HTML message body <b>in bold!</b>';
 //Attach an image file
 //$mail->addAttachment('images/phpmailer_mini.png');
 //send the message, check for errors
-if (!$mail->send()) {
-    echo "Mailer Error: " . $mail->ErrorInfo;
-} else {
-    echo "Message sent!";
-}
+// if (!$mail->send()) {
+//     echo "Mailer Error: " . $mail->ErrorInfo;
+// } else {
+//     echo "Message sent!";
+// }
 
 ?>
 

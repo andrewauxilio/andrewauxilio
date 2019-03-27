@@ -6,41 +6,36 @@
     <?php include("modules/navbar.php");?>
     
     <div class="flex-container">
-        <div id="about_me">
-            <div class="Grid Grid--cols-3 u-textCenter">
-                <div class="About-cell">
-                    <div class="about_me_1">
-                        <div id="profile_photo_container">
-                            <div><img id="profile_photo_raw" src="images/profile.jpg"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="About-cell">
-                    <div class="about_me_2">
-                        <p class="summary">
-                            Hey, I'm Andrew.<br>
-                            I'm a junior web<br>
-                            developer at Dowell Windows<br>
-                            in Melbourne. <br>
-                        <p>
-                        <p class="more">
-                            As an alumnus of RMIT University, I have the opportunity <br>
-                            to utilise my programming skills and project management <br>
-                            while learning to apply to true factual scenarios in my <br>
-                            current job as a junior software developer for Dowell Windows <br>
-                            and Doors. I value personal development as I am motivated to <br>
-                            seek new ways to challenge myself. By stepping outside of my <br>
-                            comfort zone, it helps me to keep an open mind which allows <br>
-                            me to be frequently learning and experiencing.
-                        </p>
-                    </div>
-                </div>
+        <!-- Photo Section -->
+        <div class="about" data-aos="fade-up">
+            <div id="profile_photo_container">
+                <div><img id="profile_photo_raw" src="images/profile.jpg"></div>
             </div>
         </div>
+        <!-- About me -->
+        <div class="about" data-aos="fade-up">
+            <p class="summary">
+                Hey, I'm Andrew.<br>
+                I code and design<br>
+                web applications!<br>
+                💻 ⌨️ 🖱️ 🖥️ 🤓
+            <p>
+            <p class="more">
+                I currently work for Dowell Windows as a junior website <br>
+                application developer. I am an aspiring full-stack developer. <br>
+                I usualy tinker with front-end interfaces with JavaScript <br>
+                and VuejS andserver-side architecture with PHP and Laravel. <br><br>
+
+                When I'm not infront of my laptop coding, I'm usually out  <br> 
+                working on my Japanese-import car or be out on a roadtrip  <br>
+                with family and friends.
+            </p>
+        </div>  
+
+        <?php include("modules/footer.php");?>
+
     </div>
-    
-    <?php include("modules/footer.php");?>
-    <?php include("modules/contact.php");?>
+
     <?php include("modules/scripts.php");?>
 
 </body>

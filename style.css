@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: #33ABF9;
+    background-color: white;
     font-family: 'Roboto Mono', monospace;
     color: white;
 
@@ -54,16 +54,17 @@ body {
     text-align: center;
     animation: fadein 2s;
     justify-content: center;
+    align-items: center;
 }
 
 /*Navigation Bar*/
 .navbar {
     overflow: hidden;
-    background-color: #333;
     position: fixed;
-    top: 0;
+    top: 0px;
     width: 100%;
-    background: rgba(255, 255, 255, 0.0);
+    color:white;
+    z-index: 9999;
 }
 .navbar a {
     float: right;
@@ -212,102 +213,78 @@ h3 > .fa-github {
     width: 100%;
     height: 7vh;
     background-color: #33ABF9;
-    align-items: center;
+    align-content: center;
     bottom: 0;
-    font-size: 15px;
+    font-size: 14px;
 }
 .copyright {
     padding-top: 10px;
+    padding-left: 10px;
+    align-content: center;
 }
 .fa {
     padding: 10px;
-    width: 30px;
+    width: 60px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;
     background: #33ABF9;
     color: white;
 }
-.back_to_top {
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background: rgba(255, 255, 255, 0.0);
-    padding: 10px;
-}
 
-.back_to_top a {
-    float: right;
-    padding: 10px;
-    font-size: 20px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    color: white;
+@media (min-width: 48em) {
+    #footer_container {
+        width: 100%;
+        height: 7vh;
+        background-color: #33ABF9;
+        bottom: 0;
+        font-size: 15px;
+    }
+    .copyright {
+        padding-top: 10px;
+        padding-left: 10px
+    }
+    .fa {
+        padding: 10px;
+        width: 30px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        background: #33ABF9;
+        color: white;
+    }
 }
 /*Footer End*/
 
 /*-----------------------------------------*/
 /*--------------About Me Page--------------*/
 /*-----------------------------------------*/
-.about_me {
+.about {
     width: 100%;
+    height: 100%;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     background-color: #33ABF9;
-    margin-bottom: 0px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
-.about_me_1 {
-    padding-top: 100px;
-    padding-bottom: 20px;
-    padding-left: 10px;
-}
-.about_me_2 {
-    padding-top: 60px;
-    padding-bottom: 20px;
-}
+
 #profile_photo_container {
-    height: 80%;
-    width: 80%;
+    padding-top: 50px;
 }
 #profile_photo_raw {
     height: 100%;
     width: 100%;
-}
-.About-cell {
-    background-color: #33ABF9;
-    margin: 0;
-    text-align: start;
-    padding-right: 150px;
-    height: 100%;
-    min-height: 95vh;
 }
 .summary {
     font-size:32px;
 }
 .more {
     font-size: 20px;
-}
-.Grid--cols-3>.About-cell { /* Base classes for all media - Mobile first */
-    flex: 0 0 100%;
-}
-.Grid--1of3>.About-cell:first-of-type { /* One of -- columns*/
-    flex: 0 0 100%;
-}
-@media (min-width: 30em) { /* Tablet (medium) screens */
-    .Grid--1of3>.About-cell:first-of-type {
-        flex: 0 0 100%;
-    }
-}
-@media (min-width: 48em) { /* Large screens */
-    .Grid--cols-3>.About-cell {
-        flex: 1;
-    }
-    .Grid--1of3>.About-cell:first-of-type {
-        flex: 0 0 30%;
-    }
+    text-align: left;
 }
 
 /*-----------------------------------------*/
@@ -318,7 +295,7 @@ h3 > .fa-github {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 50px; /* Location of the box */
+    padding-top: 30px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -335,7 +312,8 @@ h3 > .fa-github {
     margin: auto;
     padding: 0;
     width: 100%;
-    max-width: 700px;
+    height: 100;
+    max-width: 600px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
     -webkit-animation-name: animatetop;
     -webkit-animation-duration: 0.4s;
@@ -376,6 +354,7 @@ h3 > .fa-github {
     padding-right: 60px;
     padding-bottom: 15px;
     color: black; 
+    height: 100%;
 }
 
 /* Form CSS*/

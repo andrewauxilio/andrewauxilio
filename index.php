@@ -16,7 +16,7 @@
         <!-- The landing page section of the website-->
         <div id="cover_photo" class="container">
             <div id="cover_photo_container">
-                <!-- <img id="cover_photo_raw" src="images/cover_photo.jpg"> -->
+                <img id="cover_photo_raw" src="images/cover_photo.png">
             </div>
         </div>
 

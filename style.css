@@ -6,7 +6,7 @@ html,
 body {
     margin: 0;
     padding: 0;
-    background-color: white;
+    background-color: #33ABF9;
     font-family: 'Roboto Mono', monospace;
     color: white;
 
@@ -79,19 +79,19 @@ body {
 /*Navigation Bar End*/
 
 /*Cover Photo*/
-#cover_photo {
+.cover_photo {
     width: 100%;
     height: 100vh;
     background-color: #33ABF9;
 }
 
-#cover_photo_container {
+.cover_photo_container {
     width: auto;
     max-width: 100%;
     height: 100%;
 }
 
-#cover_photo_raw {
+.cover_photo_raw {
     width: 100%;
     height: 100%;
 }
@@ -144,7 +144,7 @@ h3 > .fa-github {
 /*Summary End*/
 
 /*Works*/
-#work {
+.work {
     width: 100%;
     height: 100%;
     display: flex;
@@ -152,28 +152,55 @@ h3 > .fa-github {
     margin-bottom: 0px;
 }
 
-#work_photo_raw {
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.work_photo_raw {
     display: block;
     width: 100%;
     height: 100%;
-    -webkit-transition: all 0.3s ease-in-out;
-    -moz-transition: all 0.3s ease-in-out;
-    -ms-transition: all 0.3s ease-in-out;
-    -o-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    transition: .5s ease;
+    backface-visibility: hidden;
     opacity: 1;
 }
-#work_photo_raw:hover {
+/* #work_photo_raw:hover {
     opacity: 0.7;
-    /* -moz-transform: scale(1.1);
+    cursor: pointer;
+    -moz-transform: scale(1.1);
     -webkit-transform: scale(1.1);
-    transform: scale(1.1); */
-}
-#work_photo_container {
+    transform: scale(1.1);
+} */
+.work_photo_container {
     width: 100%;
     height: 100%;
     overflow: hidden;
+    position: relative;
 }
+.work_photo_container:hover .work_photo_raw {
+    opacity: 0.4;
+    opacity: 0.7;
+    cursor: pointer;
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+.work_photo_container:hover .middle {
+    opacity: 1;
+}
+.text {
+    background-color: #33ABF9;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
 .Grid {
     display: flex;
     flex-wrap: wrap;
@@ -186,7 +213,12 @@ h3 > .fa-github {
 .Grid-cell {
     background-color: white;
     margin: 0;
-}                  
+}
+.Grid-cell a {
+    background-color: white;
+    margin: 0;
+    text-decoration: none;
+}                      
 .Grid--cols-3>.Grid-cell {  /*Base classes for all media - Mobile first */
     flex: 0 0 100%;
 }
@@ -285,6 +317,8 @@ h3 > .fa-github {
 .more {
     font-size: 20px;
     text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 /*-----------------------------------------*/

@@ -1,8 +1,13 @@
 Tasks:
 
-Finalise e-mail function
-Create cover photo
 Create profile photo
+Mobile Friendly - Cover photo
+Mobile Friendly - Profile photo
+
+Finalise about me page - profile photo
+
+
+
 
 Purchase web hosting
 Deploy files on server

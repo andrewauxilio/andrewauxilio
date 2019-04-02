@@ -23,7 +23,7 @@
             <p class="more">
                 I currently work for Dowell Windows as a junior website <br>
                 application developer. I am an aspiring full-stack developer. <br>
-                I usually tinker with front-end interfaces with JavaScript <br>
+                I usualy tinker with front-end interfaces with JavaScript <br>
                 and VuejS andserver-side architecture with PHP and Laravel. <br><br>
 
                 When I'm not infront of my laptop coding, I'm usually out  <br> 

@@ -6,9 +6,6 @@ Mobile Friendly - Profile photo
 
 Finalise about me page - profile photo
 
-
-
-
 Purchase web hosting
 Deploy files on server
 Point domain to server

@@ -16,19 +16,20 @@
         <div class="about" data-aos="fade-up">
             <p class="summary">
                 Hey, I'm Andrew.<br>
-                I code and design<br>
-                web applications!<br>
+                I design and build<br>
+                websites!<br>
                 💻 ⌨️ 🖱️ 🖥️ 🤓
             <p>
             <p class="more">
-                I currently work for Dowell Windows as a junior website <br>
-                application developer. I am an aspiring full-stack developer. <br>
-                I usually tinker with front-end interfaces with JavaScript <br>
-                and VuejS andserver-side architecture with PHP and Laravel. <br><br>
+                I currently work for Dowell Windows as a junior website application developer. <br>
+                I am an aspiring full-stack developer and I usually tinker with front-end <br>
+                interfaces with <mark class="yellow">JavaScript</mark> and <mark class="green">
+                VuejS</mark> and server-side architecture with <mark class="purple">PHP</mark> <br>
+                and <mark class="orange">Laravel</mark>. <br><br>
 
-                When I'm not infront of my laptop coding, I'm usually out  <br> 
-                working on my Japanese-import car or be out on a roadtrip  <br>
-                with family and friends.
+                When I'm not infront of my laptop working, I'm usually out working on my <br>
+                Japanese-import car, playing with my troublesome Samoyed, or be out on a <br>
+                roadtrip with family and friends. <br>
             </p>
         </div>  
 

@@ -6,29 +6,36 @@
     <?php include("modules/navbar.php");?>
     
     <div class="flex-container">
-        <!-- Photo Section -->
-        <div class="about" data-aos="fade-up">
-            <div id="profile_photo_container">
-                <div><img id="profile_photo_raw" src="images/profile.jpg"></div>
+
+        <!-- Title/Subtitle Section-->
+        <!-- Company/Client Logo -->
+        <div class="project_title" data-aos="fade-up">
+            <h1>Amanda Au Designs</h1>
+        </div>
+
+        <!-- Website Screenshot Section -->
+        <div class="project" data-aos="fade-up">
+            <div id="project_photo_container">
+                <div><img id="project_photo_raw" src="images/dowell_screens.png"></div>
             </div>
         </div>
-        <!-- About me -->
-        <div class="about" data-aos="fade-up">
-            <p class="summary">
-                Hey, I'm Andrew.<br>
-                I code and design<br>
-                web applications!<br>
-                💻 ⌨️ 🖱️ 🖥️ 🤓
-            <p>
-            <p class="more">
-                I currently work for Dowell Windows as a junior website <br>
-                application developer. I am an aspiring full-stack developer. <br>
-                I usualy tinker with front-end interfaces with JavaScript <br>
-                and VuejS andserver-side architecture with PHP and Laravel. <br><br>
 
-                When I'm not infront of my laptop coding, I'm usually out  <br> 
-                working on my Japanese-import car or be out on a roadtrip  <br>
-                with family and friends.
+        <!-- Website Information -->
+        <!-- Client Information -->
+        <div class="project" data-aos="fade-up">
+            <div class="info">
+                <div class='source'>
+                    Source
+                </div>
+                <div class='site'>
+                    Visit
+                </div>
+            </div>
+
+            <p class="more">
+                Amanda Au Designs is a portfolio website I designed and developed<br>
+                for the aspiring graphic designer Amanda. She wanted a minimalistic <br>
+                yet elegant design where she can showcase her best artwork.<br>
             </p>
         </div>  
 

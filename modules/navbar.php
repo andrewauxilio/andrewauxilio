@@ -1,5 +1,5 @@
 <!-- navbar module-->
 <div class="navbar">
-    <a href="about.php">About</a>
+    <a href="resume.php">Resume</a>
     <a href="index.php">Home</a>
 </div>

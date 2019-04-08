@@ -14,9 +14,18 @@
         <!-- Cover Photo Container-->
         <!-- The landing page section of the website-->
         <div class="cover_photo">
-            <div class="cover_photo_container">
+            <!-- <div class="cover_photo_container">
                 <img class="cover_photo_raw" src="images/cover_photo.png" alt="Andrew Auxilio Cover Photo">
-            </div>
+            </div> -->
+
+            <picture>
+                <source class="cover_photo_raw" media="(min-width: 900px)" srcset="images/cover_photo.png">
+                <source class="cover_photo_raw" media="(max-width: 800px)" srcset="images/cover_photo_small.png">
+                <img class="cover_photo_raw" src="images/cover_photo.png" alt="IfItDoesntMatchAnyMedia">
+                <p class="quote">my brain has too many tabs open...</p>
+                <p class="quote2">my brain has too many tabs open...</p>
+            </picture>
+            
         </div>
 
         <!-- Summary Container-->

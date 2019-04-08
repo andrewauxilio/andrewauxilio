@@ -24,6 +24,16 @@
                 <img class="cover_photo_raw" src="images/cover_photo.png" alt="IfItDoesntMatchAnyMedia">
                 <p class="quote">my brain has too many tabs open...</p>
                 <p class="quote2">my brain has too many tabs open...</p>
+                <span class="social_links">
+                    <a href="https://au.linkedin.com/in/andrewanthonyauxilio" target="_blank" class="fa fa-linkedin"></a>
+                    <a href="https://github.com/andrewauxilio" target="_blank" class="fa fa-github"></a>
+                    <a href="https://www.instagram.com/drewxmnda/" target="_blank" class="fa fa-instagram"></a>
+                    <a href="https://www.facebook.com/andrewauxilio" target="_blank" class="fa fa-facebook"></a>
+                </span>
+
+                <div class="arrow bounce" onclick="scrollDown()">
+                    <button class="down_btn" onclick="scrollDown()"><p class="fa fa-arrow-down fa-2x"></p></button>
+                </div>
             </picture>
             
         </div>
@@ -46,12 +56,6 @@
                 or message me on any of my social media accounts! 
                 <br>
                 <br>
-
-                <!-- Short summary about me and my social media links -->
-                <a href="https://au.linkedin.com/in/andrewanthonyauxilio" target="_blank" class="fa fa-linkedin"></a>
-                <a href="https://github.com/andrewauxilio" target="_blank" class="fa fa-github"></a>
-                <a href="https://www.instagram.com/drewxmnda/" target="_blank" class="fa fa-instagram"></a>
-                <a href="https://www.facebook.com/andrewauxilio" target="_blank" class="fa fa-facebook"></a>
             </h2>
         </div>
 

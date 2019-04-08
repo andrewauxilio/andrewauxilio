@@ -23,3 +23,8 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+function scrollDown() {
+  var elmnt = document.getElementById("summary");
+  elmnt.scrollIntoView({ block: 'start',  behavior: 'smooth' });
+}

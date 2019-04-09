@@ -27,10 +27,10 @@ $mail->Username = "andrew.auxilio@gmail.com";
 $mail->Password = "Na\$areth";
 
 //Set who the message is to be sent from
-$mail->setFrom('mr.andee@hotmail.com', 'Andy Aux');
+$mail->setFrom('andrew.auxilio@gmail.com', 'Andrew\'s Website');
 
 //Set who the message is to be sent to
-$mail->addAddress('mr.andee@hotmail.com', 'Andrew Auxilio');
+$mail->addAddress('andrew.auxilio@gmail.com', 'Andrew Auxilio');
 
 $mail->isHTML(true);
 $mail->Subject = 'PHPMailer GMail SMTP test';
@@ -40,9 +40,9 @@ $mail->Body = 'This is the HTML message body <b>in bold!</b>';
 //$mail->addAttachment('images/phpmailer_mini.png');
 //send the message, check for errors
 // if (!$mail->send()) {
-//     echo "Mailer Error: " . $mail->ErrorInfo;
+//     echo "<script>alert('Fail');</script>";
 // } else {
-//     echo "Message sent!";
+//     echo  "<script>alert('Success');</script>";
 // }
 
 ?>

@@ -13,15 +13,15 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
-    <!-- Social Media Icons -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <!-- Fontawesome Icons -->
+    <link rel="stylesheet" href="styles/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="styles/fontawesome/css/brands.min.css">
 
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
 
     <!-- Custom JS -->
     <script src="script.js"></script>

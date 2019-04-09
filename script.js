@@ -28,3 +28,7 @@ function scrollDown() {
   var elmnt = document.getElementById("summary");
   elmnt.scrollIntoView({ block: 'start',  behavior: 'smooth' });
 }
+
+function printResume() {
+  window.print();
+}

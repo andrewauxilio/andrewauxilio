@@ -103,12 +103,12 @@ picture {
     height: 100%;
 }
 
-.quote, .quote2 {
+.quote {
     position: absolute;
     top: 50px;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .quote2 {
@@ -148,7 +148,7 @@ picture .quote2 {
 
 @keyframes typing {
     from { width: 0 }
-    to { width: 80% }
+    to { width: 55% }
 }
 @keyframes typing2 {
     from { width: 0 }
@@ -176,7 +176,17 @@ picture .quote2 {
     left: 16px;
 }
 
-.fa:hover {
+.social_links > .fab {
+    padding: 10px;
+    width: 25px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    background: #33ABF9;
+    color: white;
+}
+
+.fab:hover {
     opacity: 0.7;
 }
 
@@ -209,6 +219,7 @@ picture .quote2 {
     padding: 0;
     border: none;
     background: none;
+    color: white;
   }
   .bounce {
     -moz-animation: bounce 2s infinite;
@@ -233,6 +244,7 @@ picture .quote2 {
     border: none;
     background: none;
     outline: none;
+    color: white;
 }
   
 /*Cover Photo End*/
@@ -370,9 +382,9 @@ h2 > a {
     padding-left: 10px;
     align-content: center;
 }
-.fa {
+.fab {
     padding: 10px;
-    width: 60px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
     margin: 5px 2px;

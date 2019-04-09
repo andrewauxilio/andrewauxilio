@@ -25,10 +25,10 @@
                 <p class="quote">my brain has too many tabs open...</p>
                 <p class="quote2">my brain has too many tabs open...</p>
                 <span class="social_links">
-                    <a href="https://au.linkedin.com/in/andrewanthonyauxilio" target="_blank" class="fa fa-linkedin"></a>
-                    <a href="https://github.com/andrewauxilio" target="_blank" class="fa fa-github"></a>
-                    <a href="https://www.instagram.com/drewxmnda/" target="_blank" class="fa fa-instagram"></a>
-                    <a href="https://www.facebook.com/andrewauxilio" target="_blank" class="fa fa-facebook"></a>
+                    <a href="https://au.linkedin.com/in/andrewanthonyauxilio" target="_blank" class="fab fa-linkedin"></a>
+                    <a href="https://github.com/andrewauxilio" target="_blank" class="fab fa-github"></a>
+                    <a href="https://www.instagram.com/drewxmnda/" target="_blank" class="fab fa-instagram"></a>
+                    <a href="https://www.facebook.com/andrewauxilio" target="_blank" class="fab fa-facebook"></a>
                 </span>
 
                 <div class="arrow bounce" onclick="scrollDown()">

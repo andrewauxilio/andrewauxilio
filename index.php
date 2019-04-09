@@ -27,8 +27,7 @@
                 <span class="social_links">
                     <a href="https://au.linkedin.com/in/andrewanthonyauxilio" target="_blank" class="fab fa-linkedin"></a>
                     <a href="https://github.com/andrewauxilio" target="_blank" class="fab fa-github"></a>
-                    <a href="https://www.instagram.com/drewxmnda/" target="_blank" class="fab fa-instagram"></a>
-                    <a href="https://www.facebook.com/andrewauxilio" target="_blank" class="fab fa-facebook"></a>
+                    <a id="showModal" class="fas fa-envelope"></a>
                 </span>
 
                 <div class="arrow bounce" onclick="scrollDown()">
@@ -51,7 +50,7 @@
             <h2 data-aos="fade-right">
                 If you're in need of a personal or business website, 
                 <br> 
-                I will be able to help you. So <a id="myBtn">shoot me an e-mail</a>🔫 
+                I will be able to help you. So <a id="showModal">shoot me an e-mail</a>🔫 
                 <br> 
                 or message me on any of my social media accounts! 
                 <br>
@@ -64,8 +63,8 @@
         <div class="work">
             
             <!-- Pawfume Project-->
-            <div class="Grid Grid--cols-3 u-textCenter" data-aos="fade-left">
-                <div class="Grid-cell">
+            <div class="Grid Grid--cols-3 u-textCenter">
+                <div class="Grid-cell" data-aos="fade-right">
                     <a href="pawfume.php">
                         <div class="work_photo_container">
                             <img class="work_photo_raw" src="images/pawfume.png" alt="Pawfume">
@@ -77,7 +76,7 @@
                 </div>
 
                 <!-- Amanda Designs Project-->
-                <div class="Grid-cell">
+                <div class="Grid-cell" data-aos="fade-up">
                     <a href="amanda-au.php">
                         <div class="work_photo_container">
                             <img class="work_photo_raw" src="images/amanda.png" alt="Amanda Designs">
@@ -89,7 +88,7 @@
                 </div>
 
                 <!-- Dowell Windows Project/s-->
-                <div class="Grid-cell">
+                <div class="Grid-cell" data-aos="fade-left">
                     <a href="dowell.php">
                         <div class="work_photo_container">
                             <img class="work_photo_raw" src="images/dowell.png" alt="Dowell Windows">

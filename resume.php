@@ -9,6 +9,7 @@
     <meta charset="UTF-8">
 
     <link type="text/css" rel="stylesheet" href="styles/resume.css">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
@@ -25,7 +26,9 @@
 
     <!-- link to navbar module-->
 	<?php include("modules/navbar.php");?>
-	<button class="dl_btn" onclick="printResume()"><i class="fa fa-download"></i></button>
+    <a href="https://docs.google.com/document/d/1WPzmPMmyEtU_zupMPiNBRNrp8PbAzr5pnT0uj61uCpU/edit?usp=sharing" target="_blank">
+        <button class="dl_btn"><i class="fa fa-download"></i></button>
+    </a>
 
     <div id="cv" class="instaFade">
         <div class="mainDetails">
@@ -84,7 +87,7 @@
 							<li>Supporting the Web Developer to code applications</li>
 							<li>Performing updates on all website applications</li>
 							<li>Creating website user interface designs using Adobe XD </li>
-							<li>Seeking more ideas and solutions for more effiecent processes</li>
+							<li>Seeking more ideas and solutions for more efficient processes</li>
 						</p>
                     </article>
 

@@ -2,7 +2,7 @@
 var modal = document.getElementById('myModal');
 
 // Get the button that opens the modal
-var btn = document.getElementById("myBtn");
+var btn = document.getElementById("showModal");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
@@ -27,8 +27,4 @@ window.onclick = function(event) {
 function scrollDown() {
   var elmnt = document.getElementById("summary");
   elmnt.scrollIntoView({ block: 'start',  behavior: 'smooth' });
-}
-
-function printResume() {
-  window.print();
 }

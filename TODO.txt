@@ -1,10 +1,6 @@
 Tasks:
 
-Create profile photo
-Mobile Friendly - Cover photo
-Mobile Friendly - Profile photo
-
-Finalise about me page - profile photo
+Test Email
 
 Purchase web hosting
 Deploy files on server

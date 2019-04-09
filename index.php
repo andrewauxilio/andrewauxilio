@@ -50,7 +50,7 @@
             <h2 data-aos="fade-right">
                 If you're in need of a personal or business website, 
                 <br> 
-                I will be able to help you. So <a id="showModal">shoot me an e-mail</a>🔫 
+                I will be able to help you. So <a id="showModal2">shoot me an e-mail</a>🔫 
                 <br> 
                 or message me on any of my social media accounts! 
                 <br>

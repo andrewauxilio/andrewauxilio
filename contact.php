@@ -31,18 +31,11 @@
                     <textarea class="ccformfield" name="message" rows="4" placeholder="Message" required></textarea>
                 </div>
                 <div class="ccfield-prepend">
-                    <input class="ccbtn" type="button" value="Send Email">
+                    <input class="ccbtn" type="submit" name="submit" value="Submit">
                 </div>
             </form>
         </div>
     </div>
 </div>
 
-<script>
-    function onSubmit() {
-        var success = "<?php $success ?>"
-        var fail = "<?php $fail ?>"
 
-        console.log(success, fail);
-    }
-</script>

@@ -13,22 +13,6 @@
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
 
-    <!-- Fontawesome Icons -->
-    <!-- <link rel="stylesheet" href="styles/fontawesome/css/all.css">
-    <link rel="stylesheet" href="styles/fontawesome/css/all.min.css">
-
-    <link rel="stylesheet" href="styles/fontawesome/css/brands.min.css">
-    <link rel="stylesheet" href="styles/fontawesome/css/brands.css">
-
-    <link rel="stylesheet" href="styles/fontawesome/css/fontawesome.css">
-    <link rel="stylesheet" href="styles/fontawesome/css/fontawesome.min.css">
-
-    <link rel="stylesheet" href="styles/fontawesome/css/regular.css">
-    <link rel="stylesheet" href="styles/fontawesome/css/regular.min.css">
-
-    <link rel="stylesheet" href="styles/fontawesome/css/solid.css">
-    <link rel="stylesheet" href="styles/fontawesome/css/solid.min.css"> -->
-
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
@@ -37,4 +21,6 @@
 
     <!-- Custom JS -->
     <script src="script.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
 </head>

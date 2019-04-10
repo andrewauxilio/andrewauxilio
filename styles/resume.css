@@ -236,6 +236,8 @@ section:last-child {
   #cv {
     width: 95%;
     margin: 10px auto;
+    margin-bottom: 10x;
+    margin-top:50px;
     min-width: 280px;
   }
 

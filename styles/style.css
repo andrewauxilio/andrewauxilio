@@ -260,6 +260,7 @@ picture .quote2 {
     background: none;
     outline: none;
     color: white;
+    cursor: pointer;
 }
   
 /*Cover Photo End*/

@@ -14,8 +14,9 @@
 
         <!-- Title/Subtitle Section-->
         <!-- Company/Client Logo -->
-        <div class="project_title" data-aos="fade-up">
-            <img src="images/dowell_logo.png" alt="Dowell Windows Logos">
+        <div class="project_title">
+            <p class="title">Dowell Windows</p>
+            <p class="title_small">Dowell Windows</p>
         </div>
 
         <!-- Website Screenshot Section -->
@@ -27,7 +28,7 @@
 
         <!-- Website Information -->
         <!-- Client Information -->
-        <div class="project" data-aos="fade-up">
+        <div class="project-info" data-aos="fade-up">
             
             <!-- Source and Website Buttons-->
             <div class="info">
@@ -41,9 +42,9 @@
 
             <!-- Project Description-->
             <p class="more">
-                The Dowell Saw Module application was developed to help streamline window <br>
-                manufacturing process in our warehouses. The application aims to eliminate <br>
-                the paperwork and store saw data, digitally. This application will also be <br>
+                The Dowell Saw Module application was developed to help streamline window 
+                manufacturing process in our warehouses. The application aims to eliminate 
+                the paperwork and store saw data, digitally. This application will also be 
                 used as a springboard for data analytics within the company.
             </p>
         </div>  

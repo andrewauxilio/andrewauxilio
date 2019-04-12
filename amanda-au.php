@@ -14,8 +14,9 @@
 
         <!-- Title/Subtitle Section-->
         <!-- Company/Client Logo -->
-        <div class="project_title" data-aos="fade-up">
-            <h1>Amanda Au Designs</h1>
+        <div class="project_title">
+            <p class="title">Amanda's Portfolio</p>
+            <p class="title_small">Amanda's Portfolio</p>
         </div>
 
         <!-- Website Screenshot Section -->
@@ -27,7 +28,7 @@
 
         <!-- Website Information -->
         <!-- Client Information -->
-        <div class="project" data-aos="fade-up">
+        <div class="project-info" data-aos="fade-up">
             
             <!-- Source and Website Buttons-->
             <div class="info">
@@ -41,9 +42,13 @@
 
             <!-- Project Description-->
             <p class="more">
-                Amanda Au Designs is a portfolio website I designed and developed<br>
-                for the aspiring graphic designer Amanda. She wanted a minimalistic <br>
-                yet elegant design where she can showcase her best artwork.<br>
+                This is a portfolio website I designed and developed
+                for the aspiring graphic designer, Amanda. She wanted a minimalistic 
+                yet elegant design where she can showcase her best artwork. 
+                <br><br>
+                Amanda Au Designs is a portfolio website I designed and developed
+                for the aspiring graphic designer Amanda. She wanted a minimalistic 
+                yet elegant design where she can showcase her best artwork.
             </p>
         </div>  
 

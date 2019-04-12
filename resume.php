@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
 
+<!----------------------------------------------------------------->
+<!-------------------------RESUME PAGE----------------------------->
+<!----------------------------------------------------------------->
 <head>
     <title>Andrew Auxilio - Curriculum Vitae</title>
 
     <meta name="viewport" content="width=device-width" />
-    <meta name="description" content="The Curriculum Vitae of Joe Bloggs." />
+    <meta name="description" content="The Curriculum Vitae of Andrew Auxilio." />
     <meta charset="UTF-8">
 
+    <!-- link to custom resume CSS -->
     <link type="text/css" rel="stylesheet" href="styles/resume.css">
+
+    <!-- link Google Fonts-->
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+
+    <!-- link to favicon-->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
 
     <!-- Fontawesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
         crossorigin="anonymous">
-
-    <!--[if lt IE 9]>
-<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 </head>
 
 <body id="top">
@@ -30,7 +34,10 @@
         <button class="dl_btn"><i class="fa fa-download"></i></button>
     </a>
 
+    <!-- Resume Container-->
     <div id="cv" class="instaFade">
+
+        <!-- Resume Header-->
         <div class="mainDetails">
             <div id="headshot" class="quickFade">
                 <img src="images/headshot.jpg" alt="Andrew Auxilio" />
@@ -52,6 +59,7 @@
             <div class="clear"></div>
         </div>
 
+        <!-- Resume About Me -->
         <div id="mainArea" class="quickFade delayFive">
             <section>
                 <article>
@@ -73,7 +81,7 @@
                 <div class="clear"></div>
             </section>
 
-
+            <!-- Resume Work Experience -->
             <section>
                 <div class="sectionTitle">
                     <h1>Work Experience</h1>
@@ -107,7 +115,7 @@
                 <div class="clear"></div>
             </section>
 
-
+            <!-- Resume Skills -->
             <section>
                 <div class="sectionTitle">
                     <h1>Key Skills</h1>
@@ -126,7 +134,7 @@
                 <div class="clear"></div>
             </section>
 
-
+            <!-- Resume Education -->
             <section>
                 <div class="sectionTitle">
                     <h1>Education</h1>
@@ -136,15 +144,11 @@
                     <article>
                         <h2>RMIT University</h2>
                         <p class="subDetails">Bachelor of Information Technology</p>
-                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus
-                            hendrerit. Curabitur non consequat enim.</p> -->
                     </article>
 
                     <article>
                         <h2>Brentwood Secondary College</h2>
                         <p class="subDetails">Victorian Certificate of Education</p>
-                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies massa et erat luctus
-                            hendrerit. Curabitur non consequat enim.</p> -->
                     </article>
                 </div>
                 <div class="clear"></div>
@@ -156,16 +160,6 @@
 	<!-- link to scripts module-->
     <?php include("modules/scripts.php");?>
 
-    <script type="text/javascript">
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost +
-        "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    </script>
-    <script type="text/javascript">
-    var pageTracker = _gat._getTracker("UA-3753241-1");
-    pageTracker._initData();
-    pageTracker._trackPageview();
-    </script>
 </body>
 
 </html>

@@ -12,12 +12,20 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Black|Judson:400,700" rel="stylesheet">
 
     <!-- AOS CSS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-    <!-- Custom CSS -->
+    <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <!-- Project Page CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/projects.css">
+
+    <!-- Contact Form CSS -->
+    <link rel="stylesheet" type="text/css" href="styles/contact-form.css">
 
     <!-- Custom JS -->
     <script src="script.js"></script>

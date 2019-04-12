@@ -5,39 +5,45 @@
 <?php include("modules/head.php");?>
 
 <body>
-    <!-- link to navbar module-->
+    <!-- link to navbar module -->
     <?php include("modules/navbar.php");?>
     
-    <!-- Contains the whole body-->
+    <!-- Contains the whole body -->
     <div class="flex-container">
 
-        <!-- Cover Photo Container-->
-        <!-- The landing page section of the website-->
+        <!----------------------------------------------------------------->
+        <!--------------------LANDING PAGE SECTION------------------------->
+        <!----------------------------------------------------------------->
         <div class="cover_photo">
-            <!-- <div class="cover_photo_container">
-                <img class="cover_photo_raw" src="images/cover_photo.png" alt="Andrew Auxilio Cover Photo">
-            </div> -->
 
+            <!-- Cover photos for large and small screens (changes depending on screen size) -->
             <picture>
                 <source class="cover_photo_raw" media="(min-width: 900px)" srcset="images/cover_photo.png">
                 <source class="cover_photo_raw" media="(max-width: 800px)" srcset="images/cover_photo_small.png">
-                <img class="cover_photo_raw" src="images/cover_photo.png" alt="IfItDoesntMatchAnyMedia">
-                <p class="quote">my brain has too many tabs open...</p>
-                <p class="quote2">my brain has too many tabs open...</p>
-                <span class="social_links">
-                    <a href="https://au.linkedin.com/in/andrewanthonyauxilio" target="_blank" class="fab fa-linkedin"></a>
-                    <a href="https://github.com/andrewauxilio" target="_blank" class="fab fa-github"></a>
-                    <a id="showModal" class="fas fa-envelope"></a>
-                </span>
-
-                <div class="arrow bounce" onclick="scrollDown()">
-                    <button class="down_btn" onclick="scrollDown()"><p class="fa fa-arrow-down fa-2x"></p></button>
-                </div>
+                <img class="cover_photo_raw" src="images/cover_photo.png" alt="Andrew Auxilio Cover Photo">
             </picture>
             
+            <!-- Cover photo quotes (changes depending on screen size) -->
+            <p class="quote">my brain has too many tabs open...</p>
+            <p class="quote2">my brain has too many tabs open...</p>
+
+            <!-- Social media links -->
+            <span class="social_links">
+                <a href="https://au.linkedin.com/in/andrewanthonyauxilio" target="_blank" class="fab fa-linkedin"></a>
+                <a href="https://github.com/andrewauxilio" target="_blank" class="fab fa-github"></a>
+                <a id="showModal" class="fas fa-envelope"></a>
+            </span>
+
+            <!-- Scroll to summary button -->
+            <div class="arrow bounce" onclick="scrollDown()">
+                <button class="down_btn" onclick="scrollDown()"><p class="fa fa-arrow-down fa-2x"></p></button>
+            </div>
+        
         </div>
 
-        <!-- Summary Container-->
+        <!----------------------------------------------------------------->
+        <!-----------------------SUMMARY SECTION--------------------------->
+        <!----------------------------------------------------------------->
         <div id="summary">
 
             <!-- Short summary about me -->
@@ -58,8 +64,9 @@
             </h2>
         </div>
 
-        <!-- Work Container-->
-        <!-- Showcase the projects that I have done-->
+        <!----------------------------------------------------------------->
+        <!--------------------PROJECT/WORK SECTION------------------------->
+        <!----------------------------------------------------------------->
         <div class="work">
             
             <!-- Pawfume Project-->

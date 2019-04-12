@@ -30,7 +30,7 @@ span.onclick = function() {
   // )
   Swal.fire(
     'Message not sent!',
-    'Your message wasn\'t sent for some reason 😓. Please re-try, or email me directly at andrew.auxilio@gmail.com',
+    'Your message wasn\'t sent for some reason. Please re-try, or e-mail me directly at andrew.auxilio@gmail.com. Sorry for the inconvenience.',
     'error'
   )
 }

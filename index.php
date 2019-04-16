@@ -31,7 +31,7 @@
             <span class="social_links">
                 <a href="https://au.linkedin.com/in/andrewanthonyauxilio" target="_blank" class="fab fa-linkedin"></a>
                 <a href="https://github.com/andrewauxilio" target="_blank" class="fab fa-github"></a>
-                <a id="showModal" class="fas fa-envelope"></a>
+                <a href="mailto:andrew.auxilio@gmail.com" class="fas fa-envelope"></a>
             </span>
 
             <!-- Scroll to summary button -->

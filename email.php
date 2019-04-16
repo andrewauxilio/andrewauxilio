@@ -21,7 +21,7 @@ if(isset($_POST['submit'])){
     $mail = new PHPMailer;
 
     $mail->isSMTP();
-    $mail->SMTPDebug = 3;
+    $mail->SMTPDebug = 0;
     $mail->Host = 'smtp.gmail.com';
     $mail->Port = 587;
     $mail->SMTPSecure = 'tls';

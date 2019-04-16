@@ -346,6 +346,11 @@ h2 > a {
     font-size: 16px;
     padding: 16px 32px;
   }
+.soon {
+    color: white;
+    font-size: 25px;
+    padding: 16px 32px;
+}
 .Grid {
     display: flex;
     flex-wrap: wrap;

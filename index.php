@@ -69,33 +69,9 @@
         <!----------------------------------------------------------------->
         <div class="work">
             
-            <!-- Pawfume Project-->
             <div class="Grid Grid--cols-3 u-textCenter">
-                <div class="Grid-cell" data-aos="fade-right">
-                    <a href="pawfume.php">
-                        <div class="work_photo_container">
-                            <img class="work_photo_raw" src="images/pawfume.png" alt="Pawfume">
-                            <div class="middle">
-                                <div class="text">Pawfume</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
-                <!-- Amanda Designs Project-->
-                <div class="Grid-cell" data-aos="fade-up">
-                    <a href="amanda-au.php">
-                        <div class="work_photo_container">
-                            <img class="work_photo_raw" src="images/amanda.png" alt="Amanda Designs">
-                            <div class="middle">
-                                <div class="text">Amanda Designs</div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-
                 <!-- Dowell Windows Project/s-->
-                <div class="Grid-cell" data-aos="fade-left">
+                <div class="Grid-cell" data-aos="fade-right">
                     <a href="dowell.php">
                         <div class="work_photo_container">
                             <img class="work_photo_raw" src="images/dowell.png" alt="Dowell Windows">
@@ -105,7 +81,30 @@
                         </div>
                     </a>
                 </div>
+
+                <!-- Pawfume Project-->
+                <div class="Grid-cell" data-aos="fade-up">
+                    <div class="work_photo_container">
+                        <img class="work_photo_raw" src="images/pawfume.png" alt="Pawfume">
+                        <div class="middle">
+                            <div class="soon">COMING SOON</div>
+                            <div class="text">Pawfume</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Amanda Designs Project-->
+                <div class="Grid-cell" data-aos="fade-left">
+                    <div class="work_photo_container">
+                        <img class="work_photo_raw" src="images/amanda.png" alt="Amanda Designs">
+                        <div class="middle">
+                            <div class="soon">COMING SOON</div>
+                            <div class="text">Amanda Designs</div>
+                        </div>
+                    </div>
+                </div>
             </div>
+            
         </div>
 
         <!-- link to footer module-->

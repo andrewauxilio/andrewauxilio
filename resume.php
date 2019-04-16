@@ -74,7 +74,7 @@
 							architecture with PHP and Laravel. <br><br>
 
 							When I'm not infront of my laptop working, I'm usually out working 
-							on my Japanese-import car, playing with my troublesome Samoyed, or 
+							on my Japanese-import car, playing with my troublesome Samoyed pup, or 
 							be out on a roadtrip with family and friends.</p>
                     </div>
                 </article>
@@ -92,9 +92,9 @@
                         <h2>Dowell Windows</h2>
                         <p class="subDetails">May 2018 - Present</p>
 						<p>
-							<li>Supporting the Web Developer to code applications</li>
-							<li>Performing updates on all website applications</li>
-							<li>Creating website user interface designs using Adobe XD </li>
+							<li>Supporting the Web Developer to code applications (Laravel & VueJS)</li>
+							<li>Performing updates on all website applications using Git-Flow</li>
+							<li>Creating website user interface designs using mock-up softwares </li>
 							<li>Seeking more ideas and solutions for more efficient processes</li>
 						</p>
                     </article>
@@ -106,7 +106,7 @@
 							<li>Developing websites using HTML, CSS, JavaScript PHP and MySQL</li>
 							<li>Creating website user interface designs using Adobe XD</li>
 							<li>Using Wordpress for eCommerce solutions and customising</li>
-							<li>Hosting websites on SiteGround</li>
+							<li>Hosting websites on VentraIP shared hosting servers</li>
 							<li>Using Github and Bitbucket to keep track of all my work</li>
 						</p>
                     </article>

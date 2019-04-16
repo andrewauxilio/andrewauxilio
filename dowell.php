@@ -47,6 +47,18 @@
                 the paperwork and store saw data, digitally. This application will also be 
                 used as a springboard for data analytics within the company.
             </p>
+
+            <ul class="tags">
+                <li><a href="#" class="tag">HTML5</a></li>
+                <li><a href="#" class="tag">CSS3</a></li>
+                <li><a href="#" class="tag">Bootsrap 3</a></li>
+                <li><a href="#" class="tag">JavaScript</a></li>
+                <li><a href="#" class="tag">VueJS</a></li>
+                <li><a href="#" class="tag">PHP</a></li>
+                <li><a href="#" class="tag">Laravel</a></li>
+                <li><a href="#" class="tag">MSSQL</a></li>
+            </ul>
+
         </div>  
 
         <!-- link to footer module-->

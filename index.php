@@ -47,13 +47,13 @@
         <div id="summary">
 
             <!-- Short summary about me -->
-            <h1 data-aos="fade-right">
+            <h1 class="summary-1" data-aos="fade-right">
                 Hi, I'm Andrew Auxilio - a Melbourne-based website developer <br> and below are some of the projects I
                 have worked on.😄
             </h1>
 
              <!-- Access contact form by clicking the "shoot me an e-mail" link-->
-            <h2 data-aos="fade-right">
+            <!-- <h2 data-aos="fade-right">
                 If you're in need of a personal or business website, 
                 <br> 
                 I will be able to help you. So <a id="showModal2">shoot me an e-mail</a>🔫 
@@ -61,7 +61,7 @@
                 or message me on any of my social media accounts! 
                 <br>
                 <br>
-            </h2>
+            </h2> -->
         </div>
 
         <!----------------------------------------------------------------->

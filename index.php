@@ -47,13 +47,13 @@
         <div id="summary">
 
             <!-- Short summary about me -->
-            <h1 class="summary-1" data-aos="fade-right">
+            <h1 class="summary-1">
                 Hi, I'm Andrew Auxilio - a Melbourne-based website developer <br> and below are some of the projects I
                 have worked on.😄
             </h1>
 
              <!-- Access contact form by clicking the "shoot me an e-mail" link-->
-            <!-- <h2 data-aos="fade-right">
+            <!-- <h2>
                 If you're in need of a personal or business website, 
                 <br> 
                 I will be able to help you. So <a id="showModal2">shoot me an e-mail</a>🔫 
@@ -71,7 +71,7 @@
             
             <div class="Grid Grid--cols-3 u-textCenter">
                 <!-- Dowell Windows Project/s-->
-                <div class="Grid-cell" data-aos="fade-right">
+                <div class="Grid-cell">
                     <a href="dowell.php">
                         <div class="work_photo_container">
                             <img class="work_photo_raw" src="images/dowell.png" alt="Dowell Windows">
@@ -83,7 +83,7 @@
                 </div>
 
                 <!-- Pawfume Project-->
-                <div class="Grid-cell" data-aos="fade-up">
+                <div class="Grid-cell">
                     <div class="work_photo_container">
                         <img class="work_photo_raw" src="images/pawfume.png" alt="Pawfume">
                         <div class="middle">
@@ -94,7 +94,7 @@
                 </div>
 
                 <!-- Amanda Designs Project-->
-                <div class="Grid-cell" data-aos="fade-left">
+                <div class="Grid-cell">
                     <div class="work_photo_container">
                         <img class="work_photo_raw" src="images/amanda.png" alt="Amanda Designs">
                         <div class="middle">

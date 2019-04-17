@@ -20,7 +20,7 @@
         </div>
 
         <!-- Website Screenshot Section -->
-        <div class="project" data-aos="fade-up">
+        <div class="project">
             <div id="project_photo_container">
                 <div><img id="project_photo_raw" src="images/dowell_screens.png"></div>
             </div>
@@ -28,7 +28,7 @@
 
         <!-- Website Information -->
         <!-- Client Information -->
-        <div class="project-info" data-aos="fade-up">
+        <div class="project-info">
             
             <!-- Source and Website Buttons-->
             <div class="info">

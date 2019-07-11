@@ -15,14 +15,14 @@
         <!-- Title/Subtitle Section-->
         <!-- Company/Client Logo -->
         <div class="project_title">
-            <p class="title">Dowell Windows</p>
-            <p class="title_small">Dowell Windows</p>
+            <p class="title">Dowell Saw Project</p>
+            <p class="title_small">Dowell Saw Project</p>
         </div>
 
         <!-- Website Screenshot Section -->
         <div class="project">
             <div id="project_photo_container">
-                <div><img id="project_photo_raw" src="images/dowell_screens.png" alt="Dowell Saw Module Screenshots"></div>
+                <div><img id="project_photo_raw" src="images/saws_screens.png" alt="Dowell Saw Module Screenshots"></div>
             </div>
         </div>
 

@@ -72,11 +72,11 @@
             <div class="Grid Grid--cols-3 u-textCenter">
                 <!-- Dowell Windows Project/s-->
                 <div class="Grid-cell">
-                    <a href="dowell.php">
+                    <a href="saws.php">
                         <div class="work_photo_container">
-                            <img class="work_photo_raw" src="images/dowell.png" alt="Dowell Windows">
+                            <img class="work_photo_raw" src="images/saws.png" alt="Dowell Windows Saw Project">
                             <div class="middle">
-                                <div class="text">Dowell Windows</div>
+                                <div class="text">Dowell Saws</div>
                             </div>
                         </div>
                     </a>
@@ -84,13 +84,15 @@
 
                 <!-- Pawfume Project-->
                 <div class="Grid-cell">
-                    <div class="work_photo_container">
-                        <img class="work_photo_raw" src="images/pawfume.png" alt="Pawfume">
-                        <div class="middle">
-                            <div class="soon">COMING SOON</div>
-                            <div class="text">Pawfume</div>
+                    <a href="dashboard.php">
+                        <div class="work_photo_container">
+                            <img class="work_photo_raw" src="images/dashboard.png" alt="Dowell Windows Dashboard Project">
+                            <div class="middle">
+                                <!-- <div class="soon">COMING SOON</div> -->
+                                <div class="text">Dowell Dashboards</div>
+                            </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
 
                 <!-- Amanda Designs Project-->

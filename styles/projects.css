@@ -13,6 +13,7 @@
   background-color: #1c87cd;
   padding-top: 60px;
   padding-bottom: 60px;
+  margin: 0;
 }
 
 /* Project Title Text for Medium to Large Screens */
@@ -34,7 +35,7 @@
   border-right: 0.15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: 0.15em; /* Adjust as needed */
+  letter-spacing: 0.10em; /* Adjust as needed */
   animation: title_typing 3s steps(30, end), blink-caret 0.5s step-end infinite;
 }
 
@@ -79,8 +80,7 @@
   align-items: center;
   background-color: #33abf9;
   color: white;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: 0;
 }
 
 .project-info {
@@ -205,6 +205,10 @@
 
 .site-d:hover {
   cursor: not-allowed;
+}
+
+.info > a {
+  text-decoration: none;
 }
 
 .source {
